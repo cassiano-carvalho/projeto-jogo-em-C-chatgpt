@@ -17,6 +17,8 @@ Interface simples por texto (entradas com coordenadas numéricas 1..8).
 Compile com gcc -std=c99 -O2 -o damas damas.c e execute ./damas.
 
 Código (arquivo: damas.c)
+
+´´´
 // damas.c
 // Jogo de damas (checkers) em C puro - dois jogadores humanos no terminal.
 // Compile: gcc -std=c99 -O2 -o damas damas.c
@@ -325,6 +327,8 @@ int main() {
     printf("Fim do jogo.\n");
     return 0;
 }
+
+´´´
 
 Observações e melhorias possíveis
 
